@@ -3,34 +3,39 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
-  const [categories] = useState([
-    { name: 'portfolio', description: 'Some of my previous projects.' },
-    { name: 'resume', description: 'Some of the things I am well versed in.' },
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [AboutSelected, setAboutSelected] = useState(false);
+  const [PortfolioSelected, setPortfolioSelected] = useState(false);
+  const [ResumeSelected, setResumeSelected] = useState(false);
 
   return (
     <div>
       <Nav
-          categories={categories}
-          setCurrentCategory={setCurrentCategory}
-          currentCategory={currentCategory}
           contactSelected={contactSelected}
           setContactSelected={setContactSelected}
+          AboutSelected={AboutSelected}
+          setAboutSelected={setAboutSelected}
+          PortfolioSelected={PortfolioSelected}
+          setPortfolioSelected={setPortfolioSelected}
+          ResumeSelected={ResumeSelected}
+          setResumeSelected={setResumeSelected}
         ></Nav>
       <main>
-        {!contactSelected ? (
-          <>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+        {contactSelected 
+        ? (<><ContactForm></ContactForm></>) 
+        : (<></>)}
+        {AboutSelected 
+        ? (<><About></About> </>)
+        : (<></>)}
+        {PortfolioSelected 
+        ? (<><Portfolio></Portfolio></>) 
+        : (<></>)}
+        {ResumeSelected 
+        ? (<><Resume></Resume></>) 
+        : (<></>)}
       </main>
     </div>
   );
