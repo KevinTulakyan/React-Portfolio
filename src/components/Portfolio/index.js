@@ -4,47 +4,48 @@ function Portfolio() {
   const [projects] = useState([
     {
       name: "Bloc",
-      pageLink: "www",
-      repo:"",
+      pageLink: "https://the-bloc.herokuapp.com/",
+      repo:"https://github.com/jcc83267/Hrd-Cpy",
+      img:0,
+    },
+    {
+      name: "Musix",
+      pageLink: "https://evanteems.github.io/Musix-Genre/",
+      repo:"https://github.com/evanteems/Musix-Genre",
       img:1,
     },
     {
-      name: "test",
-      pageLink: "www",
-      repo:"",
-      img:1,
+      name: "Weather Dashboard",
+      pageLink: "https://kevintulakyan.github.io/weather-app/",
+      repo:"https://github.com/KevinTulakyan/weather-app",
+      img:2,
     },
     {
-      name: "test",
-      pageLink: "www",
-      repo:"",
-      img:1,
+      name: "Budget Tracker",
+      pageLink: "https://peaceful-lake-26196.herokuapp.com/",
+      repo:"https://github.com/KevinTulakyan/Budget-Tracker",
+      img:3,
     },
     {
-      name: "test",
-      pageLink: "www",
-      repo:"",
-      img:1,
-    },
-    {
-      name: "test",
-      pageLink: "www",
-      repo:"",
-      img:1,
+      name: "Work Day Scheduler",
+      pageLink: "https://kevintulakyan.github.io/Work-Day-Scheduler/",
+      repo:"https://github.com/KevinTulakyan/Work-Day-Scheduler",
+      img:4,
     },
     {
       name: "Run Buddy",
-      pageLink: "www",
-      repo:"",
-      img:1,
+      pageLink: "https://kevintulakyan.github.io/run-buddy/",
+      repo:"https://github.com/KevinTulakyan/run-buddy",
+      img:5,
     }
   ])
 
-  const apps = projects.map((apps) =>
+  const apps = projects.map((apps,i) =>
   <div className="px-2">
     <h2>{apps.name}</h2>
     <a href={apps.pageLink} target="_blank" rel="noreferrer">Link</a>
     <a href={apps.repo} target="_blank" rel="noreferrer">Github</a>
+    <div className={`project${i} repoBG`}></div>
   </div>
   )
   return (

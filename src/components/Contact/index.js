@@ -47,6 +47,7 @@ function ContactForm() {
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
+                    <br />
                     <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                 </div>
                 {errorMessage && (
