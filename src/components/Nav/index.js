@@ -15,7 +15,7 @@ function Nav(props) {
 
 
     return (
-        <header className="flex-row px-1">
+        <header className="flex-row px-1 BBG BContainer">
             <h2>
                 <a data-testid="link" href="/">
                     <span role="img" aria-label="computer">{" "}💻</span>{" "}

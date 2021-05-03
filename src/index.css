@@ -353,3 +353,24 @@ a {
   background-repeat: no-repeat;
 }
 
+.footer {
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 11.25rem;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.BBG{
+  background-image: url(./assests/images/banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1950px 250px;
+  
+}
+
+.BContainer{
+  height: 20vh;
+  width: 100%;
+}
