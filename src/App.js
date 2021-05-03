@@ -14,6 +14,7 @@ function App() {
   const [PortfolioSelected, setPortfolioSelected] = useState(false);
   const [ResumeSelected, setResumeSelected] = useState(false);
 
+ 
   return (
     <div>
       <Nav
@@ -40,13 +41,18 @@ function App() {
           ? (<><Resume></Resume></>)
           : (<></>)}
       </main>
-      <footer className="footer" >
+      <footer className="footer">
+        <span>
         <a href="https://github.com/KevinTulakyan" target="_blank" rel="noreferrer">
-          <img src={githubLogo} className="github-logo" alt="Github Logo"></img></a>
+          <img src={githubLogo} className="github-logo" alt="Github Logo"></img>
+        </a>
         <a href="https://www.linkedin.com/in/kevin-tulakyan-267032201/" target="_blank" rel="noreferrer">
-          <img src={linkedinLogo} className="linkedin-logo" alt="Github Logo"></img></a>
+          <img src={linkedinLogo} className="linkedin-logo" alt="Github Logo"></img>
+        </a>
         <a href="https://stackoverflow.com/users/15821701/kevin-tulakyan" target="_blank" rel="noreferrer">
-          <img src={stackLogo} className="stack-logo" alt="Github Logo"></img></a>
+          <img src={stackLogo} className="stack-logo" alt="Github Logo"></img>
+        </a>
+        </span>
       </footer>
     </div>
   );

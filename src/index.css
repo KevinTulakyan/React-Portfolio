@@ -9,7 +9,7 @@ mmin {
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
-  --dark: #505050;
+  --dark: #5d657e;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -354,12 +354,18 @@ a {
 }
 
 .footer {
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 11.25rem;
-  margin-bottom: 10px;
-  width: 80px;
-  height: 80px;
+  text-align: center;
+  height:80px;
+  width:100%;
+  position:sticky;
+  bottom:0;
+}
+
+footer img {
+  max-height: 70px;
+  max-width: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .BBG{

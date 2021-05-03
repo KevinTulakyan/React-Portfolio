@@ -23,6 +23,7 @@ function Resume() {
                 <li>MongoDB, Mongoose</li>
                 <li>REST</li>
             </ul>
+            <h1>Resume</h1>
             <a href='https://drive.google.com/file/d/1OBQELsl2pADxP_x7NZ7G3iCepdJiH3dw/view?usp=sharing' target="_blank" rel="noreferrer">
                 Link to Resume
             </a>
