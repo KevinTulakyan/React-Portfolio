@@ -4,7 +4,7 @@ function Portfolio() {
   const [projects] = useState([
     {
       name: "Bloc",
-      pageLink: "https://the-bloc.herokuapp.com/",
+      pageLink: "https://bloc-v1.herokuapp.com/",
       repo:"https://github.com/jcc83267/Hrd-Cpy",
       img:0,
     },
