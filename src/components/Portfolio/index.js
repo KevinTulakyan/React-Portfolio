@@ -15,6 +15,12 @@ function Portfolio() {
       img:1,
     },
     {
+      name: "The Bloc 2.0",
+      pageLink: "https://the-bloc.herokuapp.com/",
+      repo:"https://github.com/jmrendon48/bloc-2.0",
+      img:6,
+    },
+    {
       name: "Weather Dashboard",
       pageLink: "https://kevintulakyan.github.io/weather-app/",
       repo:"https://github.com/KevinTulakyan/weather-app",
@@ -25,12 +31,6 @@ function Portfolio() {
       pageLink: "https://peaceful-lake-26196.herokuapp.com/",
       repo:"https://github.com/KevinTulakyan/Budget-Tracker",
       img:3,
-    },
-    {
-      name: "Work Day Scheduler",
-      pageLink: "https://kevintulakyan.github.io/Work-Day-Scheduler/",
-      repo:"https://github.com/KevinTulakyan/Work-Day-Scheduler",
-      img:4,
     },
     {
       name: "Run Buddy",
