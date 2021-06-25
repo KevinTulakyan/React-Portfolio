@@ -1,15 +1,22 @@
 import React from 'react';
 import Me from '../../assests/images/me.jpg'
 function About() {
-    return(
-        <section className="my-5">
-            <h1 id='about' >About Me</h1>
-            <img src={Me}></img>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    return (
+        <section className="my-5 aboutme" >
+            <div>
+                <h1 id='about'>About Me</h1>
+                
+            </div>
+
+            <p className="aboutme">
+                <img src={Me} ></img>
+                Front end web developer leveraging background in psychology to provide unique perspectives on how end-users interact with websites and software platforms.
+                Earned a certificate in Full Stack Web Development from the UCLA Extension Coding Boot Camp.
+                Innovative problem-solver who is passionate about developing apps with a focus on mobile-first design and development.
+                Strengths in creativity, teamwork, and building projects from ideation to execution.
             </p>
+
+
         </section>
     );
 }

@@ -24,7 +24,7 @@ function Resume() {
                 <li>REST</li>
             </ul>
             <h1>Resume</h1>
-            <a href='https://drive.google.com/file/d/1OBQELsl2pADxP_x7NZ7G3iCepdJiH3dw/view?usp=sharing' target="_blank" rel="noreferrer">
+            <a className="resume" href='https://docs.google.com/document/d/1nqjwShgkQaoMNcSMlu7b6HK3r5zV6ZazYAkDDNkuOSc/edit' target="_blank" rel="noreferrer">
                 Link to Resume
             </a>
         </section>

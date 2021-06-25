@@ -9,13 +9,12 @@ mmin {
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
-  --dark: #5d657e;
+  --dark: #888c99;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
 }
 
 * {
@@ -124,6 +123,24 @@ img {
   max-width: 100%;
 }
 
+.aboutme img {
+  float:left;
+  border-radius: 4px;
+  padding-right: 20px;
+  width: 300px;
+}
+.aboutme p {
+  line-height: 1.7;
+  color: var(--tertiary-color);
+  width: 80%;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: left;
+  border-left: 10px solid var(--primary-color);
+  border-top: 10px solid var(--primary-color);
+  padding: 50px
+}
+
 span[role="img"] {
   cursor: default;
 }
@@ -185,49 +202,14 @@ textarea {
   justify-content: flex-end;
 }
 
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
 
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
-
 .px-2 {
   padding-right: var(--spacing-two);
   padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
 }
 
 .card {
@@ -295,62 +277,53 @@ a {
 }
 
 .project0{
-  background-image: url(./assests/images/the-bloc.png);
+  padding: 20px;
   height: 50vh;
   width: 60vh;
-  left: 1%;
-  right: 1%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .project1{
-  background-image: url(./assests/images/musix.png);
+  padding: 20px;
   height: 50vh;
   width: 60vh;
-  left: 1%;
-  right: 1%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project2{
-  background-image: url(./assests/images/screencap.png);
+  padding: 20px;
   height: 50vh;
   width: 60vh;
-  left: 1%;
-  right: 1%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project3{
-  background-image: url(./assests/images/Capture.png);
+  padding: 20px;
   height: 50vh;
   width: 60vh;
-  left: 1%;
-  right: 1%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project4{
-  background-image: url(./assests/images/With_data.png);
+  padding: 20px;
   height: 50vh;
   width: 60vh;
-  left: 1%;
-  right: 1%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project5{
-  background-image: url(./assests/images/run.PNG);
+  padding: 20px;
   height: 50vh;
   width: 60vh;
-  left: 1%;
-  right: 1%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.px-2:hover {
+  cursor: pointer;;
 }
 
 .footer {
@@ -379,4 +352,11 @@ footer img {
 .BContainer{
   height: 20vh;
   width: 100%;
+}
+
+.titles{
+  padding-top: 35px;
+}
+.resume{
+  color:rgb(19, 53, 245)
 }
